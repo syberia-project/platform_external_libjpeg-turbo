@@ -131,7 +131,7 @@ read_non_rle_pixel(tga_source_ptr sinfo)
   register int i;
 
   for (i = 0; i < sinfo->pixel_size; i++) {
-    sinfo->tga_pixel[i] = (U_CHAR) read_byte(sinfo);
+    sinfo->tga_pixel[i] = (U_CHAR)read_byte(sinfo);
   }
 }
 
@@ -161,7 +161,7 @@ read_rle_pixel(tga_source_ptr sinfo)
 
   /* Read next pixel */
   for (i = 0; i < sinfo->pixel_size; i++) {
-    sinfo->tga_pixel[i] = (U_CHAR) read_byte(sinfo);
+    sinfo->tga_pixel[i] = (U_CHAR)read_byte(sinfo);
   }
 }
 

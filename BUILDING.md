@@ -191,13 +191,7 @@ Import library for the TurboJPEG API
 v8 emulation is enabled.
 
 
-<<<<<<< HEAD
-
-Build Recipes
--------------
-=======
 ### Visual C++ (IDE)
->>>>>>> 889ded5... libjpeg-turbo: update to 2.0.0
 
 Choose the appropriate CMake generator option for your version of Visual Studio
 (run `cmake` with no arguments for a list of available generators.)  For
@@ -629,6 +623,7 @@ needs.
       -DCMAKE_TOOLCHAIN_FILE=${NDK_PATH}/build/cmake/android.toolchain.cmake \
       [additional CMake flags] {source_directory}
     make
+
 
 Advanced CMake Options
 ----------------------
